@@ -23,4 +23,9 @@ public abstract class Monster {
         return damage;
     }
 
+    public abstract double bleed();
+
+    public abstract double bleed(int level);
+
+    public abstract double attack();
 }
